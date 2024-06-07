@@ -1,0 +1,118 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .Auth-container {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 4px rgba(116, 117, 116, 0.951);
+      background-color: rgb(218, 225, 248);
+  }
+
+    .Auth-container h2 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .Auth-container p{
+      text-align: right;
+      color: blue;
+    }
+    
+    .input-group {
+      margin-bottom: 15px;
+    }
+    
+    .input-group label {
+      display: flex;
+      margin-bottom: 5px;
+    }
+    .input-group select{
+      margin-left: 10px;
+      border: 2px solid blue;
+      border-radius: 5px;
+      width: 82px;
+      padding: 4px;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      font-size: 1.1rem;
+      background-color: #121fcf;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .Auth-container p{
+     cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    /* src/Navbar.css */
+  .navbar {
+    font-family: Arial, sans-serif;
+    position:sticky;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f0777;
+    padding: 1rem;
+  }
+ .navi{
+  display: flex;
+ }
+ 
+  .nav img{
+width: 50px;
+height: 45px;
+  }
+  
+  .nav h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  
+  .nav nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav nav ul li {
+    display: inline;
+  }
+  
+  .nav nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .nav nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+ 
